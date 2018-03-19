@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Wikipedia Viewer</title>
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="viewer-style.css" />
 </head>
 
 <body>
+  <div id="wiki-viewer-interface">
     <h1>Wikipedia Viewer</h1>
     <div>
-        Search for Article:
-        <input id="searchValue" class="inputField" type="text" name="search"><br>
-        <input id="searchButton" type="button" value="Search Wikipedia">
+      Search for Article:
+      <input id="searchValue" class="inputField" type="text" name="search">
+      <input id="searchButton" type="button" value="Search Wikipedia">
     </div>
     <button id="randomWikiButton">Random Article</button>
+  </div>
 
-    <!-- <div>
-  <object id='wikiWindow' type='text/html' data='gitphunky.github.com' width="800px" height="600px" style="overflow:auto;border:5px ridge blue"></object>
-</div> -->
-    <script></script>
+  <!-- <div>
+    <object id="wiki-window" type="text/html" data="http://wikipedia.org"></object>
+  </div> -->
+
+  <script type="text/javascript" src="viewer-script.js"></script>
 </body>
 
 </html>

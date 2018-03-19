@@ -1,0 +1,9 @@
+#wiki-viewer-interface {
+  margin-bottom: 25px;
+}
+
+#wiki-window {
+  min-width: 95%;
+  min-height: 600px;
+  border: ridge black;
+}
